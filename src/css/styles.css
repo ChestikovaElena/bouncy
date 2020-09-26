@@ -2,3 +2,166 @@
 font-family: 'Source Sans Pro', sans-serif; */
 @import 'normalize.css';
 
+body{
+    margin: 0;
+}
+
+.section-outer{}
+.section-inner{
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+/* Common */
+
+/* header */
+.section-header{
+    color: #ffffff;
+    background: url("../img/bg-header.png") no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+    .section-inner{
+        position: relative;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .section-header::before{
+        content: '';
+        position: absolute;
+        z-index: 5;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(32, 31, 31, 0.5);
+    }
+    
+    .section-header-menu{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        flex-shrink: 1;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 47px;
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+        .section-header-menu_logo{}
+
+        .section-header-menu_nav{
+            width: 550px;
+            
+        }
+            .site-navigation{
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 0 0;
+                padding: 0 0;
+            }
+
+            .site-navigation a{
+                text-decoration: none;
+                color: #ffffff;
+            }
+    .section-header-content{
+        flex-grow: 1;
+        margin-top: 220px;
+    }
+        .section-header-wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+            .section-header-wrapper_title{
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 35px;
+                font-weight: 200;
+                text-transform: uppercase;
+            }
+            .section-header-wrapper_subtitle{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 16px;
+                margin-top: 40px;
+            }
+    .section-header-more{
+        margin-top: 220px;
+        margin-bottom: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35px;
+        height: 35px;
+        background: rgb(25, 189, 154);
+        border-radius: 50%;
+        /* display: flex;
+        vertical-align: middle;
+        justify-content: center; */
+        position: relative;
+    }
+    .section-header-more img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);    
+    }
+
+/* header */
+
+/* promo */
+
+/* promo */
+
+/* projects */
+
+/* projects */
+
+/* services */
+
+/* services */
+
+/* impressed */
+
+/* impressed */
+
+/* portfolio */
+
+/* portfolio */
+
+/* team */
+
+/* team */
+
+/* testimonials */
+
+/* testimonials */
+
+/* news */
+
+/* news */
+
+/* subscribe */
+
+/* subscribe */
+
+/* contact */
+
+/* contact */
+
+/* submit */
+
+/* submit */
+
+/* map */
+
+/* map */
+
+/* footer */
+
+/* footer */
