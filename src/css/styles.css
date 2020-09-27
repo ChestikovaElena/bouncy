@@ -46,6 +46,7 @@ body{
         flex-shrink: 1;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         margin-top: 47px;
         margin-left: 100px;
         margin-right: 100px;
@@ -62,6 +63,7 @@ body{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                flex-wrap: wrap;
                 margin: 0 0;
                 padding: 0 0;
             }
@@ -84,12 +86,14 @@ body{
                 font-family: 'Source Sans Pro', sans-serif;
                 font-size: 35px;
                 font-weight: 200;
+                letter-spacing: 0.1em;
                 text-transform: uppercase;
             }
             .section-header-wrapper_subtitle{
                 font-family: 'Open Sans', sans-serif;
                 font-size: 16px;
                 margin-top: 40px;
+                text-align: center;
             }
     .section-header-more{
         margin-top: 220px;
@@ -100,21 +104,65 @@ body{
         height: 35px;
         background: rgb(25, 189, 154);
         border-radius: 50%;
-        /* display: flex;
-        vertical-align: middle;
-        justify-content: center; */
         position: relative;
     }
     .section-header-more img{
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%);    
+        transform: translate(-50%, -50%); 
+          
     }
 
 /* header */
 
 /* promo */
+.section-promo{
+    color: #333b46;  
+}
+    .section-inner-promo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 66px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+        max-width: 830px;
+
+    }
+        .section-promo-content{
+            margin-top: 35px;
+            
+        }
+            .section-promo-content-wrapper{}
+                .section-promo-content-wrapper_title{
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-size: 20px;
+                    font-weight: 200;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+                }
+                .section-promo-content-wrapper_subtitle{
+                    margin-top: 55px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 14px;
+                    letter-spacing: 0.05em;
+                    max-width: 470px;
+                }
+                .section-promo-content-wrapper_more{
+                    margin-top: 35px;
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 16px;
+                    letter-spacing: 0.05em;
+                    background-color: #ffffff;
+                    width: 140px;
+                    height: 37px; 
+                    border-radius: 18px;
+                }
+        .section-promo-image{}
+
 
 /* promo */
 
