@@ -297,7 +297,10 @@ body{
             }
         .section-projects-gallery{
             margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
             display: flex;
+            
             font-family: 'Open Sans', sans-serif;
             font-size: 20px;
             font-weight: 200;
@@ -402,6 +405,124 @@ body{
 /* projects */
 
 /* services */
+.section-services{
+    color: #636971;
+}
+    .section-inner-services{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+        .section-inner-services-wrapper{
+            max-width: 1030px;
+            margin-top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+            .section-inner-services-wrapper_title{
+                font-family: 'Source Sans Pro', sans-serif;;
+                font-size: 20px;
+                font-weight: 200;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+            .section-inner-services-wrapper_subtitle{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                margin-top: 40px;
+            }
+        .section-inner-services-content{
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 140px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            max-width: 1030px;
+        }   
+            
+            .section-inner-services-content-icons{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 265px;
+                padding-right: 45px;
+            }
+
+                .section-inner-services-content-icons-icon{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 53px;
+                    height: 53px;
+                    background: rgb(129, 134, 142); 
+                    border-radius: 50%;
+                    position: relative;
+                }
+                .section-inner-services-content-icons-icongreen{
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 53px;
+                    height: 53px;
+                    background: rgb(25, 189, 154); 
+                    border-radius: 50%;
+                    position: relative;
+                }
+                .section-inner-services-content-icons-icon img{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%); 
+                }
+                .section-inner-services-content-icons-icongreen img{
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%); 
+                }
+
+            .section-inner-services-content-list{
+                padding-right: 80px;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                justify-content: space-between;
+                max-width: 405px;
+                font-family: 'Open Sans', sans-serif;
+                line-height: 1.5;
+            }
+                .section-inner-services-content-list-text1{
+                    font-size: 20px;
+                    
+                }
+                .section-inner-services-content-list-text2{
+                    font-size: 16px;
+                }
+                 .section-inner-services-content-list-text3{
+                    font-size: 14px;
+                }
+            .section-inner-services-content-diagrams{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+                .section-inner-services-content-diagrams-item-percent{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 6px;
+                }
+                    .percent-number{
+                        text-anchor: middle;
+                        transform: translateY(0.4em);
+                        
+                    }
+                .section-inner-services-content-diagrams-item-text{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 16px;
+                }
 
 /* services */
 
