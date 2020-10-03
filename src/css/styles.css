@@ -21,6 +21,11 @@ body{
 .boldfont{
     font-weight: bold;
 }
+.greenlightfont{
+    color: #19bd9a;
+    font-weight: lighter;
+    font-style: italic;
+}
 /* header */
 .section-header{
     color: #ffffff;
@@ -968,8 +973,126 @@ body{
 /* testimonials */
 
 /* news */
+.section-news{
+    color: #ffffff;
+    background: url("../img/bg-news.png") no-repeat 50% 50%;
+    background-color: rgb(15, 15, 15);
+    background-blend-mode: soft-light;
+}
+    .section-inner-news{
+        padding-top: 80px;
+        padding-bottom: 100px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+        .section-inner-news-wrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+            .section-inner-news-wrapper-content{
+                display: flex;
+                flex-direction: column;
+            }
+                .section-inner-news-wrapper-content-header{
+                    max-width: 485px;
+                }
+                    .section-inner-news-wrapper-content-header-title{
+                        font-family: 'Source Sans Pro', sans-serif;
+                        font-size: 20px;
+                        font-weight: 200;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                    }
+                    .section-inner-news-wrapper-content-header-subtitle{
+                        color: #b2b3b3;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                        margin-top: 40px;
+                    }
+                .section-inner-news-wrapper-content-body{
+                    margin-top: 100px;
+                    padding-left: 70px;
+                }
+                    .section-inner-news-wrapper-content-body-title{
+                        color: #e1e4e9;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 20px;
+                    }
+                    .section-inner-news-wrapper-content-body-author{
+                        margin-top: 10px;
+                        color: #464646;
+                        font-family: 'Source Sans Pro', sans-serif;
+                        font-size: 14px;
+                        font-weight: 200;
+                        font-style: italic;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                    }
+                    .section-inner-news-wrapper-content-body-summury{
+                        margin-top: 15px;
+                        color: #464646;
+                        font-family: 'Source Sans Pro', sans-serif;
+                        font-size: 14px;
+                        font-weight: 200;
+                        letter-spacing: 0.1em;
+                    }
+                    .section-inner-news-wrapper-content-body-text{
+                        max-width: 600px;
+                        margin-top: 55px;
+                        color: #464646;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                    }
+                    .section-inner-news-wrapper-content-body-more{
+                        margin-top: 75px;
+                        color: #464646;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 16px;
+                    }
+                .section-inner-news-wrapper-slider{
+                    display: flex;
+                    flex-direction: column;
+                    height: 60px;
+                    justify-content: space-between;
+                    
+
+                }
+                    .section-inner-news-wrapper-slider-itemwhite{
+                        width: 10px;
+                        height: 10px;
+                        background: rgb(178, 179, 179);
+                        border-radius: 50%;
+                    }
+                    .section-inner-news-wrapper-slider-item{
+                        width: 8px;
+                        height: 8px;
+                        background-color: transparent;
+                        border: 1px solid rgb(178, 179, 179);
+                        border-radius: 50%;
+                    }
+                    
 
 /* news */
+
+    .section-inner-testimonials-wrapper-slider-item{
+        
+        width: 8px;
+        height: 8px;
+        background-color: transparent;
+        border: 1px solid rgb(25, 189, 154);
+        
+        border-radius: 50%;   
+    }
+
+    .section-inner-testimonials-wrapper-slider-itemgreen{
+        width: 10px;
+        height: 10px;
+        background: rgb(25, 189, 154);
+        border-radius: 50%;
+    }
+
 
 /* subscribe */
 
