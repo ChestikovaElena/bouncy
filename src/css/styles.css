@@ -666,17 +666,7 @@ body{
             }
 
             .section-inner-portfolio-gallery{
-                /* margin-top: 70px;
-                width: 1110px;
-                display: grid;
-                grid-template-columns: repeat(4, auto);
-                grid-template-rows: repeat(3, auto);
-                grid-gap: 10px; */
-
-                /* width: 80%;
-                margin: 0 auto;
-                display: grid;
-                grid-template-columns: auto auto auto auto; */
+                
                 column-count: 4;
                 width: 1110px;
                 
@@ -721,6 +711,157 @@ body{
 /* portfolio */
 
 /* team */
+.section-team{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .section-inner-team{
+        max-width: 1030px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+        .section-inner-team-wrapper{
+            
+            color: #808080;
+            padding-bottom: 100px;
+        }
+            .section-inner-team-wrapper_title{
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 20px;
+                font-weight: 200;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+            .section-inner-team-wrapper_subtitle{
+                margin-top: 40px;
+                margin-left: auto;
+                margin-right: auto;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                max-width: 485px;
+            }
+            .section-inner-team-wrapper_card{
+                max-width: 1030px;
+                margin-top: 60px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+                .section-inner-team-wrapper_content-photo{
+                    width: 290px;
+                    height: 365px;
+                }
+                .section-inner-team-wrapper_content-employee{
+                    max-width: 370px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    text-align: right;
+                }
+                    .section-inner-team-wrapper_content-employee-name{
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 20px;
+                    }
+                    .section-inner-team-wrapper_content-employee-position{
+                        font-family: 'Source Sans Pro', sans-serif;
+                        font-size: 14px;
+                        font-weight: 200;
+                        letter-spacing: 0.1em;
+                        text-transform: uppercase;
+                    }
+                    .section-inner-team-wrapper_content-employee-quote{
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                    }
+                    .section-inner-team-wrapper_content-employee-diagram{
+                        width: 330px;
+                        height: 160px;
+                    }
+                        .section-inner-team-wrapper_content-employee-diagram-wrap{
+                            padding-bottom: 25px;
+                        }
+                            .section-inner-team-wrapper_content-employee-diagram_sign{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: space-between;
+                                font-family: 'Source Sans Pro', sans-serif;
+                                font-size: 16px;
+                                font-weight: 200;
+                                letter-spacing: 0.1em;
+                                text-transform: uppercase;
+                            }
+                                .section-inner-team-wrapper_content-employee-diagram_sign-text{}
+                                .section-inner-team-wrapper_content-employee-diagram_sign-percent{}
+                            .section-inner-team-wrapper_content-employee-diagram_line{
+                                margin-top: 7px;
+                                /* text-align: left; */
+                            }
+                                .section-inner-team-wrapper_content-employee-diagram_line svg{
+                                    width: 350px;
+                                    height: 7px;
+                                    stroke-width: 5;
+                                }
+                    .section-inner-team-wrapper-slider{
+                        display: flex;
+                        flex-direction: row;
+                        width: 50px;
+                        justify-content: space-between;
+                        margin-top: 60px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                        .section-inner-team-wrapper-slider-item{
+                            
+                            width: 8px;
+                            height: 8px;
+                            background-color: transparent;
+                            border: 1px solid rgb(25, 189, 154);
+                            
+                            border-radius: 50%;   
+                        }
+
+                        .section-inner-team-wrapper-slider-itemgreen{
+                            width: 10px;
+                            height: 10px;
+                            background: rgb(25, 189, 154);
+                            border-radius: 50%;
+                        }
+        
+        .section-inner-team-contact{
+            padding-top: 50px;
+            padding-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.5;
+            color: #ffffff;
+            background: url("../img/bg-team.png") no-repeat 50% 50%;
+            background-color: rgb(0, 0, 0);
+            background-blend-mode: luminosity;
+        }
+            .section-inner-team-contact-text{
+                font-size: 20px;
+            }
+            .section-inner-team-contact-button{
+                margin-top: 30px;
+                font-size: 16px;
+                width: 145px;
+                height: 40px;
+                color: #ffffff;
+                border-radius: 15px;
+                border-color: #ffffff;
+                border-style: solid;
+                background-color: transparent;
+            }
 
 /* team */
 
