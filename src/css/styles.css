@@ -1093,6 +1093,93 @@ body{
         border-radius: 50%;
     }
 
+/* price */    
+.section-price{
+    background-color: #f3f3f3;
+    color: #81868e;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+    .section-inner-price{
+        margin-top: 80px;
+        margin-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        
+            .section-inner-price_title{
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 20px;
+                font-weight: 200;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+            .section-inner-price_subtitle{
+                margin-top: 40px;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+            }
+            .section-inner-price-wrapper{
+                width: 830px;
+            }
+                .section-inner-price-wrapper_cards{
+                    
+                    margin-top: 60px;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                    .section-inner-price-wrapper_cards-tag{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                        .section-inner-price-wrapper_cards-tag-header{
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 20px;
+                            font-weight: bold;
+                            color: #ffffff;
+                            width: 235px;
+                            height: 65px;
+                            background-color: #19bd9a;
+                            padding-top: 33px;
+                        }
+                        .section-inner-price-wrapper_cards-tag-cost{
+                            color: #19bd9a;
+                            background-color: #ffffff;
+                            font-family: 'Source Sans Pro', sans-serif;
+                            font-size: 42px;
+                            font-weight: 800;
+                            padding-top: 65px;
+                        }
+                        .section-inner-price-wrapper_cards-tag-period{
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 20px;
+                            background-color: #ffffff;
+                            padding-top: 10px;
+                            padding-bottom: 105px;
+                        }
+                    .section-inner-price-wrapper_cards-condition{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        background-color: #ffffff;
+                        padding-top: 30px;
+                        
+                    }
+                        .section-inner-price-wrapper_cards-condition-item{}
+                        .section-inner-price-wrapper_cards-condition-start{
+                            width: 230px;
+                            height: 70px;
+                            padding-top: 35px;
+                            background-color: #19bd9a;
+                            font-family: 'Open Sans', sans-serif;
+                            font-size: 16px;
+                            color: #ffffff;
+                        }
+                
+/* price */ 
 
 /* subscribe */
 
