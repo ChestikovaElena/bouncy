@@ -4,6 +4,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 
 body{
     margin: 0;
+    box-sizing: border-box;
 }
 
 .section-outer{}
@@ -1142,6 +1143,7 @@ body{
                             color: #ffffff;
                             width: 235px;
                             height: 65px;
+                            line-height: 65px;
                             background-color: #19bd9a;
                             padding-top: 33px;
                         }
@@ -1172,7 +1174,7 @@ body{
                         .section-inner-price-wrapper_cards-condition-start{
                             width: 230px;
                             height: 70px;
-                            padding-top: 35px;
+                            line-height: 70px;
                             background-color: #19bd9a;
                             font-family: 'Open Sans', sans-serif;
                             font-size: 16px;
@@ -1182,10 +1184,128 @@ body{
 /* price */ 
 
 /* subscribe */
+.section-subscribe{
+    color: #ffffff;
+    background: url("../img/bg-subscribe.png") no-repeat 50% 50%;
+    background-color: #181818;
+    background-blend-mode: luminosity;
+}
+    .section-inner-subscribe{
+        display: flex;
+        flex-direction: column;
+    }
+        .section-inner-subscribe-wrapper{
+            padding-top: 80px;
+            padding-bottom: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+            .section-inner-subscribe-wrapper_title{
+                font-family: 'Source Sans Pro', sans-serif;
+                font-size: 20px;
+                font-weight: 200;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+            .section-inner-subscribe-wrapper_subtitle{
+                font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                margin-top: 40px;
+                max-width: 490px;
+            }
+            .section-inner-subscribe-wrapper-submit{
+                padding-top: 60px;
+                display: flex;
+                flex-direction: row;
+                width: 520px;
+            }
+                .section-inner-subscribe-wrapper-submit_mail{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 14px;
+                    line-height: 38px;
+                    width: 360px;
+                    height: 38px;
+                    border:1px solid #ffffff;
+                    padding-left: 30px;
+                    text-align: left;
+                    align-items: center;
+                }
+                .section-inner-subscribe-wrapper-submit_button{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 14px;
+                    color: #ffffff;
+                    width: 150px;
+                    height: 40px;
+                    text-transform: uppercase;
+                    margin-left: 10px;
+                    background-color: #19bd9a;
+                    border: 0;
+                }
 
 /* subscribe */
 
 /* contact */
+.section-contact{
+    background-color: #f3f3f3;
+    color: #333b46;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+    .section-inner-contact{
+        padding-top: 80px;
+        padding-bottom: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+        .section-inner-contact_title{
+            font-family: 'Source Sans Pro', sans-serif;
+            font-size: 20px;
+            font-weight: 200;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+        .section-inner-contact_subtitle{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin-top: 40px;
+            width: 480px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .section-inner-contact-block{
+            margin-top: 60px;
+            display: flex;
+            flex-direction: row;
+            width: 940px;
+            justify-content: space-between;
+        }
+            .section-inner-contact-block-item{}
+                .section-inner-contact-block-item-top{
+                    width: 285px;
+                    height: 145px;
+                }
+                .section-inner-contact-block-item-bottom{
+                    padding-top: 30px;
+                    width: 285px;
+                    height: 95px;
+                    background-color: #ffffff;
+                }
+                    .section-inner-contact-block-item-bottom-header{
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 16px;
+                        text-transform: uppercase;
+                        
+                    }
+                    .section-inner-contact-block-item-bottom-value{
+                        margin-top: 25px;
+                        margin-bottom: 30px;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        
+                    }
 
 /* contact */
 
