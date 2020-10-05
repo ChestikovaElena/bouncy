@@ -1310,6 +1310,61 @@ body{
 /* contact */
 
 /* submit */
+.section-submit{
+    padding-top: 80px;
+    padding-bottom: 130px;
+    color: #a9a9a9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+    .section-inner-submit{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .section-inner-submit-consultation{
+            display: flex;
+            flex-direction: row;
+            width: 940px;
+            justify-content: space-between;
+        }
+            .section-inner-submit-consultation-name{
+                border: 1px solid #a9a9a9;
+                width: 248px;
+                height: 43px;
+                padding-left: 25px;
+                line-height: 43px;
+            }
+            .section-inner-submit-consultation-mail{
+                border: 1px solid #a9a9a9;
+                width: 253px;
+                height: 43px;
+                padding-left: 25px;
+                line-height: 43px;
+            }
+            .section-inner-submit-consultation-subject{
+                border: 1px solid #a9a9a9;
+                width: 248px;
+                height: 43px;
+                padding-left: 25px;
+                line-height: 43px;
+            }
+    .section-inner-submit-consultation-input{
+        border: 1px solid #a9a9a9;
+        width: 938px;
+        height: 188px;
+        margin-top: 30px;
+    }
+    .section-inner-submit-now{
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #19bd9a;
+        margin-top: 30px;
+        width: 940px;
+        height: 55px;
+        border: 0;
+    }
 
 /* submit */
 
