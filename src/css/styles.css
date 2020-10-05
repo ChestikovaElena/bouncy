@@ -1369,9 +1369,134 @@ body{
 /* submit */
 
 /* map */
+.section-map{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    height: 500px;
+    background: url("../img/map.png") no-repeat 50% 50%;
+    background-size: cover;
+}
+    .section-inner-map{
+        padding-top: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 230px;
+        
+    }
+        .section-inner-map-block-text{
+            color: #f0f0f0;
+        }
+
+        .section-inner-map-block-more{
+            
+            width: 15px;
+            height: 15px;
+            background: rgb(25, 189, 154);
+            border-radius: 50%;
+            position: relative;
+        }
+        .section-inner-map-block-more img{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
 
 /* map */
 
 /* footer */
+.section-footer{
+    background-color: #f3f3f3;
+    color: #81868e;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+    .section-footer-logo{}
+    .section-footer-rights{
+        margin-top: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+    }
+    .section-footer-contacts{
+        margin-top: 30px;
+        width: 168px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+        .section-footer-contacts-facebook{
+            width: 26px;
+            height: 26px;
+            background: rgb(59, 89, 152);
+            border-radius: 50%;
+            position: relative;
+        }
+        .section-footer-contacts-facebook img{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .section-footer-contacts-twitter{
+            width: 26px;
+            height: 26px;
+            background: rgb(38, 166, 209);
+            border-radius: 50%;
+            position: relative;
+        }
+        .section-footer-contacts-twitter img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .section-footer-contacts-instagram{
+            width: 26px;
+            height: 26px;
+            background: rgb(20, 121, 170);
+            border-radius: 50%;
+            position: relative;
+        }
+        .section-footer-contacts-instagram img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .section-footer-contacts-icon{
+            width: 26px;
+            height: 26px;
+            background: rgb(63, 114, 155);
+            border-radius: 50%;
+            position: relative;
+        }
+        .section-footer-contacts-icon img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .section-footer-contacts-v{
+            width: 26px;
+            height: 26px;
+            background: rgb(134, 201, 239);
+            border-radius: 50%;
+            position: relative;
+        }
+        .section-footer-contacts-v img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
 
 /* footer */
