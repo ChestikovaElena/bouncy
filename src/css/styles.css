@@ -30,7 +30,7 @@ body{
 /* header */
 .section-header{
     color: #ffffff;
-    background: url("../img/bg-header.png") no-repeat 50% 50%;
+    background: url("../img/bg-header.jpg") no-repeat 50% 50%;
     background-size: cover;
     position: relative;
     /* height: 100vh; */
@@ -535,7 +535,7 @@ body{
 /* impressed */
 .section-impressed{
     color: #ffffff;
-    background: url("../img/bg-impressed.png") no-repeat 50% 50%;
+    background: url("../img/bg-impressed.jpg") no-repeat 50% 50%;
     background-size: cover;
     /* position: relative; */
     padding-top: 80px;
@@ -576,9 +576,10 @@ body{
                 font-size: 16px;
                 line-height: 1.5;
                 max-width: 600px;
+                margin-top: 55px;
             }
             .section-inner-impressed-wrapper_author{
-                margin-top: 55px;
+                margin-top: 30px;
                 font-family: 'Open Sans', sans-serif;
                 font-size: 14px;
                 font-weight: bold;
@@ -617,8 +618,6 @@ body{
     color: #636971;
     
     padding-top: 80px;
-    padding-left: auto;
-    padding-right: auto;
     padding-bottom: 100px;
     background-color: #f3f3f3;
 }
@@ -685,9 +684,9 @@ body{
 
             .section-inner-portfolio-start{
                 margin-top: 40px;
-                background: url("../img/bg-portfolio.png") no-repeat 50% 50%;
+                background: url("../img/bg-portfolio.jpg") no-repeat 50% 50%;
                 background-color: #2cbaa0;
-                background-blend-mode: luminosity;
+                background-blend-mode: soft-light;
             }
                 .section-inner-portfolio-start-wrapper{
                     padding-top: 50px;
@@ -850,9 +849,9 @@ body{
             font-family: 'Open Sans', sans-serif;
             line-height: 1.5;
             color: #ffffff;
-            background: url("../img/bg-team.png") no-repeat 50% 50%;
-            background-color: rgb(0, 0, 0);
-            background-blend-mode: luminosity;
+            background: url("../img/bg-team.jpg") no-repeat 50% 50%;
+            background-color: rgb(14, 14, 14);
+            background-blend-mode: soft-light;
         }
             .section-inner-team-contact-text{
                 font-size: 20px;
@@ -976,9 +975,8 @@ body{
 /* news */
 .section-news{
     color: #ffffff;
-    background: url("../img/bg-news.png") no-repeat 50% 50%;
-    background-color: rgb(15, 15, 15);
-    background-blend-mode: soft-light;
+    background: url("../img/bg-news.jpg") no-repeat 50% 50%;
+    
 }
     .section-inner-news{
         padding-top: 80px;
@@ -1186,7 +1184,7 @@ body{
 /* subscribe */
 .section-subscribe{
     color: #ffffff;
-    background: url("../img/bg-subscribe.png") no-repeat 50% 50%;
+    background: url("../img/bg-subscribe.jpg") no-repeat 50% 50%;
     background-color: #181818;
     background-blend-mode: luminosity;
 }
@@ -1373,7 +1371,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     height: 500px;
-    background: url("../img/map.png") no-repeat 50% 50%;
+    background: url("../img/map.jpg") no-repeat 50% 50%;
     background-size: cover;
 }
     .section-inner-map{
@@ -1388,6 +1386,7 @@ body{
     }
         .section-inner-map-block-text{
             color: #f0f0f0;
+            letter-spacing: 0.1em;
         }
 
         .section-inner-map-block-more{
