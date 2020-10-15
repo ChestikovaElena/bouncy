@@ -485,7 +485,7 @@
                     odio dignissimos ducimus qui blanditiis praesentium
                 </div>
                 <div class="section-inner-subscribe-wrapper-submit">
-                    <div class="section-inner-subscribe-wrapper-submit_mail">Email Address</div>
+                    <input name="mail" required placeholder="Email address" type="text"/>
                     <button class="section-inner-subscribe-wrapper-submit_button">SUBMIT</button>
                 </div>
             </div>
@@ -541,15 +541,18 @@
 
     <!-- submit-->
     <section class="section-outer section-submit">
-        <div class="section-inner-submit">
+        <form class="section-inner-submit">
             <div class="section-inner-submit-consultation">
-                <div class="section-inner-submit-consultation-name">Your name</div>
-                <div class="section-inner-submit-consultation-mail">Email address</div>
-                <div class="section-inner-submit-consultation-subject">Subject</div>
+                <input name="name" required placeholder="Your name" type="text"/>
+                <input name="mail" required placeholder="Email address" type="text"/>
+                <input name="subject" required placeholder="Subject" type="text"/>
+                
             </div>
-            <div class="section-inner-submit-consultation-input"></div>
+            <div class="section-inner-submit-consultation-input">
+                <input name="comment" type="text"/>
+            </div>
             <button class="section-inner-submit-now">SUBMIT NOW</button>
-        </div>
+        </form>
     </section>
     <!-- / submit-->
 
