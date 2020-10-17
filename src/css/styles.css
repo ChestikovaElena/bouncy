@@ -59,7 +59,7 @@ body{
         display: flex;
         flex-direction: column;
     }
-    
+
     .section-header-menu{
         font-family: 'Open Sans', sans-serif;
         font-size: 16px;
@@ -71,7 +71,7 @@ body{
     }
         .section-header-menu_nav{
             width: 550px;
-            
+
         }
 
             .site-navigation{
@@ -98,7 +98,7 @@ body{
             display: flex;
             flex-direction: column;
             align-items: center;
-            
+
         }
 
             .section-header-wrapper_title{
@@ -136,7 +136,7 @@ body{
         position: absolute;
         left: 50%;
         top: 50%;
-        transform: translate(-50%, -50%); 
+        transform: translate(-50%, -50%);
     }
 
 /* header */
@@ -144,7 +144,7 @@ body{
 /* promo */
 
 .section-promo{
-    color: #333b46;  
+    color: #333b46;
 }
 
     .section-inner-promo{
@@ -185,7 +185,7 @@ body{
                 letter-spacing: 0.05em;
                 background-color: #ffffff;
                 width: 140px;
-                height: 37px; 
+                height: 37px;
                 border-radius: 18px;
                 border: 1px solid #81868e;
             }
@@ -202,7 +202,7 @@ body{
 .section-details{
     background-color: #f3f3f3;
     color: #787c82;
-    
+
 }
 
     .section-inner-details{
@@ -252,12 +252,12 @@ body{
                     .section-inner-details-wrapper-icons-items:hover{
                         background-color: rgb(25, 189, 154);
                     }
-                
+
                 .section-inner-details-wrapper-icons img{
                     position: absolute;
                     left: 50%;
                     top: 50%;
-                    transform: translate(-50%, -50%); 
+                    transform: translate(-50%, -50%);
                 }
 
             .section-inner-details-wrapper-content{
@@ -338,9 +338,9 @@ body{
             .section-projects-gallery-items-2{
                 width: 335px;
                 height: 320px;
-                background: url(../img/photo-2.jpg) no-repeat 50% 50%; 
-                position: relative;   
-            } 
+                background: url(../img/photo-2.jpg) no-repeat 50% 50%;
+                position: relative;
+            }
 
             .section-projects-gallery-items-text{
                 position: relative;
@@ -363,8 +363,8 @@ body{
             .section-projects-gallery-items-3{
                 width: 330px;
                 height: 320px;
-                background: url(../img/photo-3.jpg) no-repeat 50% 50%; 
-                position: relative;   
+                background: url(../img/photo-3.jpg) no-repeat 50% 50%;
+                position: relative;
             }
 
             .section-projects-gallery-items-3:before{
@@ -413,6 +413,10 @@ body{
                     font-weight: 200;
                 }
 
+                /* можно добавить лапку для кнопки
+                    cursor:pointer
+                    дает подск4азку что на нее можно нажать
+                */
                 .section-projects-submit-button{
                     font-family: 'Open Sans', sans-serif;
                     font-size: 16px;
@@ -450,7 +454,7 @@ body{
     }
 
         .section-inner-services-wrapper{
-           text-align: center; 
+           text-align: center;
         }
 
             .section-inner-services-wrapper_title{
@@ -472,7 +476,7 @@ body{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-        }   
+        }
 
             .section-inner-services-content-icons{
                 display: flex;
@@ -486,32 +490,48 @@ body{
                     margin: 0 auto;
                     width: 53px;
                     height: 53px;
-                    background: rgb(129, 134, 142); 
+                    background: rgb(129, 134, 142);
                     border-radius: 50%;
                     position: relative;
                 }
 
+                /* тут лучше через модификатор, многие стили дублируются от класса выше
+                 - например, .section-inner-services-content-icons-icon и класс для фона .section-inner-services-content-icons-icon__green
+                    хотя я очень не люблю такие длинные конструкции .section-inner-services-content-icons-icon.icon__green
+
+                    вообще если делать по БЭМ
+                    __элемент: .block__title
+                    _модификатор: .block_width_small или .block_small
+                    Пример:
+                    HTML: class="popup__dialog popup__dialog_large"
+                    CSS:.popup__dialog.popup__dialog
+
+                    но ты можешь свое правило завести для модификаторов (классов дополнояющих или изменяющих код основных)
+                 */
                 .section-inner-services-content-icons-icongreen{
                     margin: 0 auto;
                     width: 53px;
                     height: 53px;
-                    background: rgb(25, 189, 154); 
+                    background: rgb(25, 189, 154);
                     border-radius: 50%;
                     position: relative;
                 }
 
+                /* для img лучше добавить свой класс, чтобы не повторять код
+                 + лучше избегать использования селекторов напрямую
+                 */
                 .section-inner-services-content-icons-icon img{
                     position: absolute;
                     left: 50%;
                     top: 50%;
-                    transform: translate(-50%, -50%); 
+                    transform: translate(-50%, -50%);
                 }
 
                 .section-inner-services-content-icons-icongreen img{
                     position: absolute;
                     left: 50%;
                     top: 50%;
-                    transform: translate(-50%, -50%); 
+                    transform: translate(-50%, -50%);
                 }
 
             .section-inner-services-content-list{
@@ -617,7 +637,7 @@ body{
                 line-height: 1.5;
                 text-transform: uppercase;
             }
-            
+
             .section-inner-impressed-wrapper_monitor img{
                 position: absolute;
                 top: -120px;
@@ -685,11 +705,12 @@ body{
                 flex-direction: row;
                 justify-content: space-between;
             }
-            
+
             .section-inner-portfolio-gallery{
+                /* интересно, нестандартно - молодец*/
                 column-count: 4;
                 width: 1110px;
-                
+
             }
 
                 .section-inner-portfolio-gallery img{
@@ -727,6 +748,8 @@ body{
                             height: 40px;
                             color: #ffffff;
                             border-radius: 15px;
+                            /* краткая запись удобнее border: 1px solid #fff */
+                            /* кстати цвет можно сокращать если 6 одинаковых символов */
                             border-color: #ffffff;
                             border-style: solid;
                             background-color: transparent;
@@ -862,7 +885,7 @@ body{
                             height: 8px;
                             background-color: transparent;
                             border: 1px solid rgb(25, 189, 154);
-                            border-radius: 50%;   
+                            border-radius: 50%;
                         }
 
                         .section-inner-team-wrapper-slider-itemgreen{
@@ -965,6 +988,10 @@ body{
                     }
 
                         .section-inner-testimonials-wrapper_content-say{
+                            /* Font property font-family does not have generic default  */
+                            /* если браузер не найдет шрифт, лучше через запятую указать запасные похожие, иначе будет Times New Roman
+                                хотя Myriad Pro тоже с засечками, это хороший тон
+                            */
                             font-family: 'Myriad Pro';
                             font-size: 16px;
                         }
@@ -996,7 +1023,7 @@ body{
                         height: 8px;
                         background-color: transparent;
                         border: 1px solid rgb(25, 189, 154);
-                        border-radius: 50%;   
+                        border-radius: 50%;
                     }
 
                     .section-inner-testimonials-wrapper-slider-itemgreen{
@@ -1129,7 +1156,7 @@ body{
         height: 8px;
         background-color: transparent;
         border: 1px solid rgb(25, 189, 154);
-        border-radius: 50%;   
+        border-radius: 50%;
     }
 
     .section-inner-testimonials-wrapper-slider-itemgreen{
@@ -1139,7 +1166,7 @@ body{
         border-radius: 50%;
     }
 
-/* price */ 
+/* price */
 
 .section-price{
     background-color: #f3f3f3;
@@ -1234,8 +1261,8 @@ body{
                                 background-color: #81868e;
                                 color:  #ffffff;
                             }
-                
-/* price */ 
+
+/* price */
 
 /* subscribe */
 
@@ -1296,7 +1323,7 @@ body{
                 .section-inner-subscribe-wrapper-submit input::-webkit-input-placeholder
                  {
                     color: #ccc;
-                   } 
+                   }
                 .section-inner-subscribe-wrapper-submit_button{
                     font-family: 'Open Sans', sans-serif;
                     font-size: 14px;
