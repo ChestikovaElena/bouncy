@@ -915,11 +915,11 @@ body{
                             border-radius: 50%;
                             cursor: pointer;
                             transition: .2s;
+                            border: 1px solid var(--basecolor);
                         }
 
                         .section-inner-team-wrapper-slider-itemgreen{
                             background: rgb(25, 189, 154);
-                            border: 1px solid var(--basecolor);
                         }
 
                         .section-inner-team-wrapper-slider-itembasecolor{
@@ -1077,14 +1077,12 @@ body{
 .section-news{
     color: #fff;
     background: url("../img/bg-news.jpg") no-repeat 50% 50%;
-    background-color:  #f3f3f3;
+    background-color: #f3f3f3;
 }
 
     .section-inner-news{
-        background-color: #f3f3f3;
         padding: 100px 20% 80px 20%;
     }
-
 
         .section-inner-news-wrapper{
             display: flex;
