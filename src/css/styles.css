@@ -576,6 +576,10 @@ body{
                 line-height: 1.5;
             }
 
+            .section-inner-services-content-list-hidden{
+                display: none;
+            }
+
                 .section-inner-services-content-list-text1{
                     font-size: 20px;
                 }
