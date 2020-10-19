@@ -566,8 +566,20 @@
     <section class="section-outer section-map">
         <div class="section-inner-map">
             <div class="section-inner-map-block-text">FIND US ON THE MAP</div>
-            <div class="section-inner-map-block-more">
-                <img src="../src/icons/more_small.png" class="section-inner-map-block-more-image" alt="">
+            <div class="section-inner-map-block-more" id="more-interactive">
+                <img src="../src/icons/more_small.png" class="section-inner-map-block-more-image" alt="Офис по адресу: город Барисал">
+            </div>
+        </div>
+        <div class="section-map-interactive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2602.3836394214313!2d90.36658323899489!3d22.716112518000845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x375536a91c6e0f73%3A0x1ecb52f4519caf67!2zQmF0aWtoYW5hLCDQkdCw0YDQuNGB0LDQuywg0JHQsNC90LPQu9Cw0LTQtdGI!3m2!1d22.718515!2d90.3683624!5e0!3m2!1sru!2sru!4v1603051788817!5m2!1sru!2sru"
+                    width="1200" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0" class="section-inner-map-block-more-interactive" id="map-interactive">
+            </iframe>
+            <div class="section-map-interactive-close">
+                <div class="more-interactive-close-wrap" id="more-interactive-close">
+                    <img src="../src/icons/close.png" width="30" height="30" alt="Закрыть интерактивную карту" 
+                    class="more-interactive-close-wrap-image">
+                </div>
             </div>
         </div>
     </section>
@@ -613,6 +625,7 @@
 
     <script src="js/more.js"></script>
     <script src="js/promo_more.js"></script>
+    <script src="js/map.js"></script>
 
 </body>
 </html>

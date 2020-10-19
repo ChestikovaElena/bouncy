@@ -1538,13 +1538,44 @@ body{
             .section-inner-map-block-more:active{
                 background-color: var(--secondcolor);
             }
-
+        
         .section-inner-map-block-more-image{
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
         }
+    .section-map-interactive{
+        position: relative;
+    }
+
+        .section-inner-map-block-more-interactive{
+            display: none;
+            position: absolute;
+            top: -268px;
+            left: 50px;
+        }
+
+        .section-map-interactive-close{
+            position: relative;
+        }
+
+            .more-interactive-close-wrap{
+                position: absolute;
+                top: -260px;
+                left: 1210px;
+                background-color: var(--basecolor);
+                cursor: pointer;
+                display: none;
+                transition: .2s;
+            }
+
+            .more-interactive-close-wrap:hover,
+            .more-interactive-close-wrap:focus,
+            .more-interactive-close-wrap:active{
+                background-color: var(--secondcolor);
+                transform: rotate(-45deg);
+            }
 
 /* map */
 
