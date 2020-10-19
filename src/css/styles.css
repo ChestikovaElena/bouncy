@@ -1167,6 +1167,14 @@ body{
                         color: #fff;
                     }
 
+                .section-inner-news-wrapper-content-body-hidden{
+                    display: none;
+                    background-color: var(--secondcolor);
+                    width: 100%;
+                    margin: 20px 30px;
+                    padding: 20px;
+                }
+
                 .section-inner-news-wrapper-slider{
                     display: flex;
                     flex-direction: column;
