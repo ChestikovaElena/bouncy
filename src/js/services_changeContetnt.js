@@ -7,7 +7,7 @@ document.getElementById("services-icon-1").onclick = function() {
     slide_1.style.backgroundColor = "#19bd9a";
     slide_2.style.backgroundColor = "#81868e";
     slide_3.style.backgroundColor = "#81868e";
-    slide_3.style.backgroundColor = "#81868e";
+    slide_4.style.backgroundColor = "#81868e";
 
     document.getElementById("services-list-1").classList.remove('section-inner-services-content-list-hidden');
     document.getElementById("services-list-2").classList.add('section-inner-services-content-list-hidden');
@@ -24,7 +24,7 @@ document.getElementById("services-icon-2").onclick = function() {
     slide_1.style.backgroundColor = "#81868e";
     slide_2.style.backgroundColor = "#19bd9a";
     slide_3.style.backgroundColor = "#81868e";
-    slide_3.style.backgroundColor = "#81868e";
+    slide_4.style.backgroundColor = "#81868e";
 
     document.getElementById("services-list-1").classList.add('section-inner-services-content-list-hidden');
     document.getElementById("services-list-2").classList.remove('section-inner-services-content-list-hidden');
