@@ -11,13 +11,13 @@
 </head>
 <body>
     <!-- header-->
-    <section class="section-outer section-header">
+    <header class="section-outer section-header">
         <div class="section-inner">
             <div class="section-header-menu">
                 <div class="section-header-menu_logo">
                     <img src="../src/icons/logo.png" width="112" alt="Логотип BOUNCY">
                 </div>
-                <div class="section-header-menu_nav">
+                <nav class="section-header-menu_nav">
                     <ul class="site-navigation">
                         <li><a href="#promo">Hello</a></li>
                         <li><a href="#details">Details</a></li>
@@ -25,19 +25,47 @@
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#team">Team</a></li>
                     </ul>
-                </div>
+                </nav>
             </div>
-            <div class="section-header-content">
-                <div class="section-header-wrapper">
-                    <div class="section-header-wrapper_title">We are code cafe</div>
-                    <div class="section-header-wrapper_subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</div>
+            <div class="navbar-toggle-wrap">
+                <div class='navbar-toggle-wrap-icon' title='Menu' id="navbar-toggle-wrap-icon">
+                    <div class='bar1' id="bar1"></div>
+                    <div class='bar2' id="bar2"></div>
+                    <div class='bar3' id="bar3"></div>
                 </div>
+                <nav class="navbar-toggle-menu nav-hide" id="navbar-toggle-menu">
+                    <ul class="navbar-toggle-menu-list" id="navbar-toggle-menu-list">
+                        <li class="navbar-toggle-menu-list-item">
+                            <a href="#promo" class="navbar-toggle-menu-list-item-href">Hello</a>
+                        </li>
+                        <li class="navbar-toggle-menu-list-item">
+                            <a href="#details" class="navbar-toggle-menu-list-item-href">Details</a>
+                        </li>
+                        <li class="navbar-toggle-menu-list-item">
+                            <a href="#services" class="navbar-toggle-menu-list-item-href">Services</a>
+                        </li>
+                        <li class="navbar-toggle-menu-list-item">
+                            <a href="#portfolio" class="navbar-toggle-menu-list-item-href">Portfolio</a>
+                        </li>
+                        <li class="navbar-toggle-menu-list-item">
+                            <a href="#team" class="navbar-toggle-menu-list-item-href">Team</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="section-header-more" id="header-more-button">
-                <img src="../src/icons/more.png" alt="" class="section-header-more-image" id="header-more-image">
+            <div class="header-wrap" id="header-wrap">
+                <div class="section-header-content">
+                    <div class="section-header-wrapper">
+                        <div class="section-header-wrapper_title">We are code cafe</div>
+                        <div class="section-header-wrapper_subtitle">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</div>
+                    </div>
+                </div>
+                <div class="section-header-more" id="header-more-button">
+                    <img src="../src/icons/more.png" alt="" class="section-header-more-image" id="header-more-image">
+                </div>
             </div>
         </div>
-    </section>
+    </header>
     <!-- / header-->
 
     <!-- header more-->
@@ -622,12 +650,15 @@
     <section class="section-outer section-submit">
         <form class="section-inner-submit">
             <div class="section-inner-submit-consultation">
-                <input name="name" required placeholder="Your name" type="text"/>
-                <input name="mail" required placeholder="Email address" type="text"/>
-                <input name="subject" required placeholder="Subject" type="text"/>
+                <input name="name" required placeholder="Your name" type="text"
+                class="section-inner-submit-consultation-value"/>
+                <input name="mail" required placeholder="Email address" type="text"
+                class="section-inner-submit-consultation-value"/>
+                <input name="subject" required placeholder="Subject" type="text"
+                class="section-inner-submit-consultation-value"/>
             </div>
             <div class="section-inner-submit-consultation-input">
-                <input name="comment" type="text"/>
+                <input name="comment" type="text" class="section-inner-submit-consultation-input-value"/>
             </div>
             <button class="section-inner-submit-now">SUBMIT NOW</button>
         </form>
@@ -642,10 +673,10 @@
                 <img src="../src/icons/more_small.png" class="section-inner-map-block-more-image" alt="Офис по адресу: город Барисал">
             </div>
         </div>
-        <div class="section-map-interactive">
+        <div class="section-map-interactive" id="map-interactive">
             <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2602.3836394214313!2d90.36658323899489!3d22.716112518000845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x375536a91c6e0f73%3A0x1ecb52f4519caf67!2zQmF0aWtoYW5hLCDQkdCw0YDQuNGB0LDQuywg0JHQsNC90LPQu9Cw0LTQtdGI!3m2!1d22.718515!2d90.3683624!5e0!3m2!1sru!2sru!4v1603051788817!5m2!1sru!2sru"
-                    width="1200" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0" class="section-inner-map-block-more-interactive" id="map-interactive">
+                    height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0" class="section-inner-map-block-more-interactive">
             </iframe>
             <div class="section-map-interactive-close">
                 <div class="more-interactive-close-wrap" id="more-interactive-close">
@@ -695,6 +726,7 @@
     </section>
     <!-- / footer-->
 
+    <script src="js/menu_hidden.js"></script>
     <script src="js/more.js"></script>
     <script src="js/promo_more.js"></script>
     <script src="js/details_changeContetnt.js"></script>
